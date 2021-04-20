@@ -1,0 +1,1 @@
+gcc.exe main.c -l gdi32 -mwindows
