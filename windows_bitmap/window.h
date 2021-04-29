@@ -19,8 +19,8 @@ HWND window_handle;
 BITMAPINFO bitmap_info = {0};
 
 void close_window(){
-    UnregisterClass("WindowClass", GetModuleHandle(0));
     DestroyWindow(window_handle);
+    UnregisterClass("WindowClass", GetModuleHandle(0));
 }
 
 void draw_buffer(HDC device_context){

@@ -13,8 +13,8 @@ int window_width, window_height;
 HWND window_handle;
 
 void close_window(){
-    UnregisterClass("WindowClass", GetModuleHandle(0));
     DestroyWindow(window_handle);
+    UnregisterClass("WindowClass", GetModuleHandle(0));
 }
 
 LRESULT CALLBACK window_procedure(HWND window_handle, UINT message, WPARAM w_param, LPARAM l_param){
