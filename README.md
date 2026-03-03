@@ -1,3 +1,3 @@
 # cross-platform-window
 
-[More details here](https://imadr.me/cross-platform-window-in-c)
+[More details here](https://imadrahmoune.com/cross-platform-window-in-c)
